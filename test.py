@@ -3,8 +3,13 @@ import os
 import google.generativeai as genai
 
 # Configure Google AI
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/apple/Dhanvin Krishna/Python/NueralCaption/neuralcaption-4873593c7bc4.json"
-genai.configure(api_key="AIzaSyAlwwBmaKdMRqgZKotQE4uBhbbSiQdEmY4")
+credentials_json = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON")
+if credentials_json:
+    creds_dict = json.loads(credentials_json)
+    creds = service_account.Credentials.from_service_account_info(creds_dict)
+    client = vision.ImageAnnotatorClient(credentials=creds)
+else:
+    client = vision.ImageAnnotatorClient()
 
 
 
