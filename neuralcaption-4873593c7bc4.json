@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "neuralcaption",
+  "private_key_id": "4873593c7bc49d93f1d7981e5160a7766868dc02",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDDAKWlUSx4ARNL\nqYGFjXWtxXcgOliByfuB52bLRMbzqbBgCUqLpARHx5d5AfMQWq4OT2LKN7O4p5EI\nFhvee4KgCGOKT4Pxhr+qc16NX0KM4HzaCVWDYQD3qekeh/pkTcVVuk46VLqkJX4u\nQAvJmVahuX7Ncvw/CT2gkpVg4+Ke06JkM8R1ZZacKskqV7h/A9Jtfrgfo++B5YSQ\nxWsM5DJ9Exe6RO6IaHIwzOuVrnnd8SeaerXoH9VHJi410/ugW4eUwwQLVfg9yOXe\nG3VNbywAHZ1XWej11Z4122XK4IZ5tIZJj5Duh6o5sriRNT+7SGxEuRNqn5Df+/1s\njG/Spv/BAgMBAAECggEAMDbcvf9QC2vYpYCHscnEKu8EAUfr0ktqkDfyxpd+yYhP\nP6+MavJmzIig/x5oRsbk+kzOlEkpeqKTzXgJ8/x906u/UNdQPEug4DgeTL4c6lAn\nDpH4Pr+hSZsNNKtSUbKY9BVYejuw2h0bEbxsLbBoJxyCKbIghEV4o1ca8BXoVnR2\n1/F++g6tF2cAVR8zdzvHX94tTC1eShTwL7yYxWr1jeihKQ3KwpAcbTjLjrovvxzP\nETNUHjQTVxrQ5Jwdxeifyr9tn/unMjWFUnR92b0U+YPBCxIGMrMD8MAt7Xph6hbS\nklXN9OuYEkO5IREkR2cr7cOs7P62FmIe0ba58a7W8QKBgQDh5lDhIw53hn0tdpoz\nLzghvLEv/bcwFGRcoxZ59/2CUSj4eNd3Gi1fO8zuFx2wv3RmL0JZYrSjcekLF6ka\nVfB6703aYTVcaRLtXgsgDT0t/xfeKs8LAPCoVpffnyiDrpjPRkkAtfblEDkdb2Ek\nzcsKAFktyNKWFYDu7PV9LWwOwwKBgQDc/GVWiCfdlSO49Yhto3oQsDWoUww+JBXA\nyORVNnYnyNrH1NAtzbwyJ2jhYWfL8TtAeIQseCUWe5hjxk+/cyP9/sN0XpcMOV4z\nhio84r9w+f8SKqlOfoMoPd0baNKgE5SYWGRzG8mhHKZba3ooka1b3qNYkmMUnr85\naPERek8XKwKBgGOqzVZ3tCNSKBqN8HzSwY5JBVgqNc+1v44Lupf3rVb43f26uz3m\nQ8x3wvPtKQFZh06qXTi4zwAp+usU9lwTPLXQrWXDa9qo1Vv7GSd8D9kianJwKsct\nFAEBq6JTQ3nN58fTt9PjdNodrUVqZc7qKUHxY2dK6najaC6CR9GB3+InAoGBAIr+\ngarkptZ7SOW8Idx8F3nJq2Y9HhUz0y7X7K4gPD8X2WwZUfuNTNLq8M/Z2VRwXYlW\nhCQISaOTh60x/dT4UeofRMa7/BunNbYIrCZxpGImDCZcCPOjJVG5X4ou61PeHPeZ\nmUzBbJfWklgsCMDdqAGBzpIWORWuJ66vb/lDSd3TAoGBAKIB0odA5oBXzW6Elexn\nRu9W8N2M2GnttuoJyp9YCsDIJDSWUlOLZOyyCOOpckEqlYuMvb1F5WnzRTKvphz6\n1ddBZrr9gUi2hKdSEcGrdi8Uhox7isY7L/b/KIYZ4JEyfiRF3dcCj+uZ/cjUkO/m\nNTepfbThzT1cRwHYoF+x0oQM\n-----END PRIVATE KEY-----\n",
+  "client_email": "neuralcapvisionservice@neuralcaption.iam.gserviceaccount.com",
+  "client_id": "115827896636428115476",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/neuralcapvisionservice%40neuralcaption.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
