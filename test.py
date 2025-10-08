@@ -1,8 +1,10 @@
 
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
 
 # Configure Google AI
+<<<<<<< HEAD
 credentials_json = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON")
 if credentials_json:
     creds_dict = json.loads(credentials_json)
@@ -11,6 +13,10 @@ if credentials_json:
 else:
     client = vision.ImageAnnotatorClient()
 
+=======
+load_dotenv('.env')
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+>>>>>>> 017342e (api fix)
 
 
 def detect_text(path):
@@ -67,20 +73,20 @@ def generate_captions(text, labels):
     model = genai.GenerativeModel("gemini-pro-latest")
     
     prompt = f"""
-    A user uploaded a poster/image.
+    A user uploaded a poster.
 
-    The image text says:
-    "{text}"
+    Poster text: "{text}"
+    Detected themes: {', '.join(labels)}
 
-    The image seems to be about: {", ".join(labels)}
-
-    Based on this, write 3 creative and catchy social media captions.
-    Use emojis and relevant hashtags.
-    Make each caption unique with different styles:
-    1. First caption: Excited and direct with full details
-    2. Second caption: Question-based and intriguing
-    3. Third caption: Short, punchy with bullet points
-    """
+   Write 3 engaging Instagram captions based on this poster.
+    Each caption should:
+    - Be 2–4 sentences long.
+    - Have a warm, emotional, or energetic tone (depending on the poster content).
+    - Include 2–4 relevant emojis.
+    - Include 4–8 relevant hashtags.
+    - Start with "Caption 1:", "Caption 2:", "Caption 3:".
+    - Do not include any explanations, introductions, or extra text. Only output the captions.
+"""
     
     response = model.generate_content(prompt)
     return response.text
