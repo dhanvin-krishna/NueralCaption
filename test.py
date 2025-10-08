@@ -4,19 +4,10 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 
 # Configure Google AI
-<<<<<<< HEAD
-credentials_json = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON")
-if credentials_json:
-    creds_dict = json.loads(credentials_json)
-    creds = service_account.Credentials.from_service_account_info(creds_dict)
-    client = vision.ImageAnnotatorClient(credentials=creds)
-else:
-    client = vision.ImageAnnotatorClient()
 
-=======
 load_dotenv('.env')
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
->>>>>>> 017342e (api fix)
+
 
 
 def detect_text(path):
